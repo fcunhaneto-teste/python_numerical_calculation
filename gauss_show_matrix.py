@@ -39,6 +39,11 @@ def gauss_elimination(li, lines):
 
 
 def input_matrix(lines):
+    """
+    Input the lines of matrix
+    :param lines: number of matrix lines
+    :return li: list represented the matrix
+    """
     li = []
 
     print("Enter one row of the matrix at a time, with the coefficients separated by spaces example:")
